@@ -4,6 +4,19 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+
+
+        document.addEventListener("DOMContentLoaded" , function(){
+          document.querySelector('.more').onclick = (function(){
+            document.querySelector('#hide').style.display = "block";
+            document.querySelector('.more').style.display = "none"; 
+
+          });
+        });
+
+
+
 (function() {
   "use strict";
 
