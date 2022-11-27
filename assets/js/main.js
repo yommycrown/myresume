@@ -18,6 +18,7 @@
 
           document.querySelector('#close').onclick =(function(){
             document.querySelector('#hide').style.display = "none";
+            window.scrollBy( 0, 100);
           });
         });
 
