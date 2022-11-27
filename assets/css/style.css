@@ -624,6 +624,11 @@ transition: 0.5s;
   opacity: 0;
 }
 
+
+#close{
+  display: none;
+}
+
 /*
 .portfolio .portfolio-wrap .portfolio-info {
   opacity: 0;

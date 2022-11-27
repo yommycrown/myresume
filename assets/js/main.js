@@ -10,8 +10,14 @@
         document.addEventListener("DOMContentLoaded" , function(){
           document.querySelector('.more').onclick = (function(){
             document.querySelector('#hide').style.display = "block";
-            document.querySelector('.more').style.display = "none"; 
 
+            document.querySelector('.more').style.display = "none"; 
+            
+            document.querySelector('#close').style.display = "block";
+          });
+
+          document.querySelector('#close').onclick =(function(){
+            document.querySelector('#hide').style.display = "none";
           });
         });
 
