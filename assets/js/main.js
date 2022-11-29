@@ -21,6 +21,7 @@
             document.querySelector('#close').style.display = "block";
 
             window.scrollBy( 0, 300);
+            document.querySelector('.more').style.display = "block"; 
           });
         });
 
