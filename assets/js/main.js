@@ -16,13 +16,7 @@
             document.querySelector('#close').style.display = "block";
           });
 
-          document.querySelector('#close').onclick =(function(){
-            document.querySelector('#hide').style.display = "none";
-            document.querySelector('#close').style.display = "block";
-
-            window.scrollBy( 0, 300);
-            document.querySelector('.more').style.display = "block"; 
-          });
+          
         });
 
 
