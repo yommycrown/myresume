@@ -4,9 +4,9 @@
 
 
 $('#close').click(function(){
-    $('#hide').hide();
-    $('#close').fadeIn();
+    $('#hide').slideUp(3000);
+    $('#close').fadeOut(3000);
 
     window.scrollBy( 0, 300);
-    $('.more').slideDown(); 
+    $('.more').fadeIn(3000); 
   });
