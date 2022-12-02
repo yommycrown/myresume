@@ -4,9 +4,12 @@
 
 
 $('#close').click(function(){
-    $('#hide').slideUp(3000);
-    $('#close').fadeOut(3000);
+    $('#hide').slideUp(10000);
+    $('#close').fadeOut(10000);
 
     window.scrollBy( 0, 300);
     $('.more').fadeIn(3000); 
+    $('.webpage').slideUp(10000);
   });
+
+  
